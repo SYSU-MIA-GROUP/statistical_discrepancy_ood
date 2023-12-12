@@ -41,6 +41,6 @@ To reproduce our results on ResNet-50, please run:
 sh feat_compute.sh
 ```
 for extract the feature vectors and :
-'''
+```
 python ood_test.py
-'''
+```
