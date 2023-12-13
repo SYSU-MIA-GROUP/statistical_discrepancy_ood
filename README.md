@@ -2,6 +2,11 @@
 
 ## Usage
 
+### Modules Preparation
+```
+torch, torchvision, tqdm, sklearn, numpy, pandas, scipy
+```
+
 ### 1. Dataset Preparation
 
 #### In-distribution dataset
@@ -38,11 +43,13 @@ will start upon running.
 
 ### 3. OOD Detection Evaluation
 
-To reproduce our results on ResNet-50, please run:
+Please run for feature vectors extraction:
 ```
 sh feat_compute.sh
 ```
-for extract the feature vectors and :
+To reproduce our results on ImageNet-1K benchmark with ResNet-50, run:
 ```
 python ood_test.py
 ```
+
+
