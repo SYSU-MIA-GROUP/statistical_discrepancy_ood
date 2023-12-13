@@ -1,3 +1,5 @@
+## Code for paper : Exploiting Discrepancy in Feature Statistic for Out-of-distribution Detection; accepted by AAAI2024.
+
 ## Usage
 
 ### 1. Dataset Preparation
